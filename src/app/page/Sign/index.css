@@ -1,0 +1,28 @@
+
+.signBtnBgPurple {
+  background: #EF4444;
+}
+
+.signBtnBg {
+  background: linear-gradient(265.56deg,#e64a4a -.79%,#981616 90.4%);
+}
+
+.btn-normal.rounded {
+  font-family: Montserrat,sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.div-or-line {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+

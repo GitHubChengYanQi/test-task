@@ -1,0 +1,20 @@
+.btnSmall {
+  border-radius: 12px;
+  font-family: Montserrat,sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.btnBgPurple {
+  border-radius: 12px;
+  background: linear-gradient(245deg, #E64A4A 0%, #981616 100%);
+}
+
+.header-middle-menu {
+  flex: auto;
+}
+
