@@ -1,28 +1,53 @@
 
 .signBtnBgPurple {
-  background: #EF4444;
+    background: #EF4444;
 }
 
 .signBtnBg {
-  background: linear-gradient(265.56deg,#e64a4a -.79%,#981616 90.4%);
+    background: linear-gradient(265.56deg, #e64a4a -.79%, #981616 90.4%);
 }
 
 .btn-normal.rounded {
-  font-family: Montserrat,sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 12px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
 }
 
 .div-or-line {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
 }
 
+.tipBc {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.tip-content {
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.triangle {
+    position: absolute;
+    bottom: -36px;
+    left: 110px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #fff;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+input { outline: none }
